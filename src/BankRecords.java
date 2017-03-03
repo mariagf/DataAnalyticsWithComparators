@@ -48,7 +48,7 @@ public class BankRecords extends Client {
 	@Override
 	public void readData() {
 		// Path to the cvs file
-		String csvFile = "/Users/Maria/Desktop/bank-Detail.csv";
+		String csvFile = "files/bank-Detail.csv";
 		// Declaration of needed variables
 		String line = "";
 		// Try to read the file placed in the path, it could throw an exception
